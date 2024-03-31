@@ -1,0 +1,39 @@
+/* 导入字体 */
+@font-face {
+    font-family: 'alimam-dongfangdakai';
+    src: url('../scr/Alimama_DongFangDaKai_Regular.ttf');
+}
+
+html {
+    background-color: bisque;
+}
+
+body{
+    width: 600px;
+    margin:  0 auto;
+    background-color: aquamarine;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+p {
+    font-family: 'alimam-dongfangdakai', serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: blue;
+    text-align: center;
+    text-shadow: 2px 2px 1px red;
+}
+
+.guimie-title {
+    text-shadow: 1px 1px 2px red;
+}
+
+img{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
